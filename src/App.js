@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="border-4 h-auto py-10 flex flex-col justify-center items-center">
+    <div className="h-auto py-10 flex flex-col justify-center items-center">
       <div className="w-full max-w-6xl h-auto">
         <Profile />
         <Links />
