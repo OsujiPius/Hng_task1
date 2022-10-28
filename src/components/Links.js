@@ -4,7 +4,7 @@ import LinkItem from "./atoms/LinkItem";
 export default function Links() {
   return (
     <div className=" w-full">
-      <LinkItem name="Twitter Links" />
+      <LinkItem name="Twitter Links" href="https://twitter.com/pius_osuji" />
       <LinkItem
         name="Zuri Team"
         id="btn__zuri"
