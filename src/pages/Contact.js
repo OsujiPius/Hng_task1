@@ -15,6 +15,7 @@ export default function Contact() {
             <label className="text-[#344054] font-medium">First name</label>
             <input
               type="text"
+              id="first_name"
               placeholder="Enter your first name"
               className="h-11 w-full min-[1100px]:w-[348px] rounded-lg border border-[#D0D5DD] outline-none pl-3"
             />
@@ -23,6 +24,7 @@ export default function Contact() {
             <label className="text-[#344054] font-medium">Last name</label>
             <input
               type="text"
+              id="last_name"
               placeholder="Enter your last name"
               className="h-11 w-full min-[1100px]:w-[348px] rounded-lg border border-[#D0D5DD] outline-none pl-3"
             />
@@ -32,6 +34,7 @@ export default function Contact() {
           <label className="text-[#344054] font-medium">Email</label>
           <input
             type="email"
+            id="email"
             placeholder="Enter your last name"
             className="h-11 w-full rounded-lg border border-[#D0D5DD] outline-none pl-3"
           />
@@ -39,6 +42,7 @@ export default function Contact() {
         <div className="flex flex-col mt-4">
           <label className="text-[#344054] font-medium">Message</label>
           <textarea
+            id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
             className="h-36 w-full rounded-lg border border-[#D0D5DD] outline-none pl-3 resize-none"
           />
@@ -52,6 +56,7 @@ export default function Contact() {
         <div className="my-5 text-center">
           <input
             type="submit"
+            id="btn__submit"
             value="Send message"
             className="mx-auto bg-[#1570EF] text-white py-3 px-5 w-full rounded-lg"
           />
