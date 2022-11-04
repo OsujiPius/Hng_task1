@@ -44,7 +44,7 @@ export default function Contact() {
           <textarea
             id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
-            className="h-36 w-full rounded-lg border border-[#D0D5DD] outline-none pl-3 resize-none"
+            className="h-36 w-full rounded-lg border border-[#D0D5DD] outline-none p-3 resize-none"
           />
         </div>
         <div className="flex items-center mt-4">
