@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="sm:w-[90%] w-full h-auto py-10 flex justify-center flex-col items-center">
+    <div className="sm:w-[90%] w-full h-auto pb-10 pt-3 flex justify-center flex-col items-center">
       <header className="sm:w-3/5 w-[90%] h-auto py-5 mb-10">
         <p className="text-[#101828] text-4xl font-semibold">Contact me</p>
         <p className="text-[#475467] text-2xl font-normal mt-4">
@@ -47,7 +47,7 @@ export default function Contact() {
             className="h-36 w-full rounded-lg border border-[#D0D5DD] outline-none pl-3 resize-none"
           />
         </div>
-        <div className="flex mt-4">
+        <div className="flex items-center mt-4">
           <input type="checkbox" />
           <p className="text-[#475467] ml-4">
             You agree to providing your data to Pius who may contact you.
