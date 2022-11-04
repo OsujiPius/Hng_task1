@@ -1,19 +1,22 @@
 import "./App.css";
-import Links from "./components/Links";
-import Profile from "./components/Profile";
-import Socials from "./components/Socials";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="h-auto py-10 flex flex-col justify-center items-center">
-      <div className="w-full max-w-6xl h-auto">
-        <Profile />
-        <Links />
-        <Socials />
-      </div>
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <div className="flex flex-col items-center justify-center h-auto py-10">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 

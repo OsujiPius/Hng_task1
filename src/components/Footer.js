@@ -4,10 +4,7 @@ import Ingressive from "../components/assests/ingressive.svg";
 
 export default function Footer() {
   return (
-    <div
-      className="sm:h-20 h-auto my-10 w-full max-w-5xl border-t border-gray-400 flex 
-    justify-between pt-5 items-center sm:flex-row flex-col gap-4"
-    >
+    <div className="flex flex-col justify-between w-full h-auto max-w-5xl gap-4 pt-5 pl-5 my-10 border-t border-gray-400 sm:h-20 sm:items-center items-left sm:flex-row sm:pl-0">
       <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
         <img src={Zuri} alt="" />
       </a>

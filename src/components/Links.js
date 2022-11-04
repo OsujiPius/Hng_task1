@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LinkItem from "./atoms/LinkItem";
 
 export default function Links() {
   return (
-    <div className=" w-full">
+    <div className="w-full ">
+      <Link to="/contact">
+        <LinkItem name="Contact" id="contact" />
+      </Link>
       <LinkItem name="Twitter Links" href="https://twitter.com/pius_osuji" />
       <LinkItem
         name="Zuri Team"
